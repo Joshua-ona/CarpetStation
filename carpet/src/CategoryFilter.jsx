@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const categories = ["Wall-to-Wall", "Centre Carpets", "Grass Carpet", "Corridor Carpets"];
+const categories = ["Wall to Wall", "Centre Carpets", "Grass Carpet", "Corridor Carpets"];
 
 export default function CategoryFilter({ setCategory }) {
   const [active, setActive] = useState(null); // ✅ move inside
