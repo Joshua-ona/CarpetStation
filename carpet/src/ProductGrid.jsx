@@ -35,13 +35,13 @@ import star from "./corridor/star.jpeg"
 
 const data = {
     "Wall-to-Wall": [
-        { id: 1, name: "Bella", color: "Black", img: black },
-        { id: 2, name: "Bella", color: "Blue", img: blue },
-        { id: 3, name: "Brown and White", color: "brown", img: BRW },
-        { id: 4, name: "Bella", color: "Maroon", img: maroon },
-        { id: 5, name: "Bella", color: "Red", img: red },
-        { id: 6, name: "Bella", color: "Blue", img: sky },
-        { id: 7, name: "Bella", color: "Grey", img: greyish },
+        { id: 1, name: "Vulvet", color: "Black", img: black },
+        { id: 2, name: "Galaxy", color: "Blue", img: blue },
+        { id: 3, name: "Woolen", color: "brown", img: BRW },
+        { id: 4, name: "Galaxy", color: "Maroon", img: maroon },
+        { id: 5, name: "Woolen", color: "Red", img: red },
+        { id: 6, name: "Woolen", color: "Blue", img: sky },
+        { id: 7, name: "Galaxy", color: "Grey", img: greyish },
     ],
     "Centre Carpets": [
         { id: 8, name: "Bella", color: "Red", img: bella },
