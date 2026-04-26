@@ -34,7 +34,7 @@ import star from "./corridor/star.jpeg"
 
 
 const data = {
-    "Wall-to-Wall": [
+    "Wall to Wall": [
         { id: 1, name: "Vulvet", color: "Black", img: black },
         { id: 2, name: "Galaxy", color: "Blue", img: blue },
         { id: 3, name: "Woolen", color: "brown", img: BRW },
@@ -73,9 +73,10 @@ const data = {
 };
 
 export default function ProductGrid({ category, setSelectedImage }) {
+    const items = data[category]  || [] ;
     return (
         <div className="grid">
-            {data[category].map((item) => (
+            {items.map((item) => (
                 <ProductCard key={item.id} item={item} onClick={setSelectedImage} />
             ))}
         </div>

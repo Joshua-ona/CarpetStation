@@ -7,7 +7,7 @@ import Footer from "./Footer";
 import "./styles.css";
 
 export default function App() {
-  const [category, setCategory] = useState("Wall-to-Wall");
+  const [category, setCategory] = useState("Wall to Wall");
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (

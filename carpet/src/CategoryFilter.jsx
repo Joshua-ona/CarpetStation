@@ -3,7 +3,7 @@ import { useState } from "react";
 const categories = ["Wall to Wall", "Centre Carpets", "Grass Carpet", "Corridor Carpets"];
 
 export default function CategoryFilter({ setCategory }) {
-  const [active, setActive] = useState(null); // ✅ move inside
+  const [active, setActive] = useState("Wall to Wall"); // ✅ move inside
 
   const handleClick = (cat) => {
     setActive(cat);       // track clicked button
