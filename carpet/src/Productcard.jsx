@@ -2,7 +2,7 @@
 
 export default function ProductCard({ item, onClick }) {
   const phoneNumber = "256709184769"; // replace with your business number
-  const message = `Hello, I'm interested in ${item.name} (${item.color}) (${item.img})`;
+  const message = `Hello Carpet Station, I'm interested in ${item.name} in a (${item.color}) color`;
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
