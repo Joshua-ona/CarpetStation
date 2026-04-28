@@ -9,7 +9,7 @@ import luvi from "./center/luvi.jpeg";
 import luvib from "./center/luvib.jpeg";
 import offelya from "./center/offelya.jpeg";
 import Primeshaggy from "./center/shag.jpeg";
-import Redshaggy from "./center/red shaggy.jpeg";
+import Redshaggy from "./center/red-shaggy.jpeg";
 import Sahra from "./center/Sahra.jpeg";
 import vizion from "./center/Vizion.jpeg";
 //import from wall to wall
@@ -18,7 +18,7 @@ import blue from "./walltowall/blue.jpeg"
 import BRW from "./walltowall/brown-white.jpeg"
 import maroon from "./walltowall/marron.jpeg"
 import red from "./walltowall/red.jpeg"
-import sky from "./walltowall/sweet blue.jpeg"
+import sky from "./walltowall/sweet-blue.jpeg"
 import greyish from "./walltowall/greyish.jpeg"
 //import from grass
 import balcony from "./grass/balcony.jpeg"
